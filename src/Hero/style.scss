@@ -1,0 +1,39 @@
+.herocontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    min-height: 70vh;
+    width: 100vw;
+    min-width: 100vw;
+    background-color: transparent;
+
+    
+}
+
+.heroitems{
+   
+    
+
+    p{
+        font-family: 'PPMori-bold';
+        font-size: 5rem;
+        font-weight: bolder;
+        color: #08090A;
+    }
+}
+
+.over{
+    position: relative;
+    z-index: 2;
+    top:100px
+}
+
+.under{
+    position: relative;
+    z-index: 1;
+    bottom:230px
+}
+
+
+
