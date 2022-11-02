@@ -10,6 +10,7 @@ export const Hero = () => {
             <p>Andreas</p><br/>
             <p>Webudvikler</p>
           </div>
+          
           <div className='under'>
            <img src={img} alt=""/>
           </div>

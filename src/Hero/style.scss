@@ -1,38 +1,53 @@
 .herocontainer{
-    display: flex;
+    display: grid;
+   
+    align-content: center;
     justify-content: center;
-    align-items: center;
-    height: 70vh;
-    min-height: 70vh;
-    width: 100vw;
-    min-width: 100vw;
-    background-color: transparent;
+   
+  
+   
+    
 
     
 }
 
-.heroitems{
-   
-    
 
+
+.over{
     p{
         font-family: 'PPMori-bold';
         font-size: 5rem;
         font-weight: bolder;
         color: #08090A;
     }
-}
-
-.over{
+    display: inline;
     position: relative;
     z-index: 2;
-    top:100px
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+
+
+    
+    
+    
+   
 }
 
+
+
 .under{
+    display: inline-block;
     position: relative;
     z-index: 1;
-    bottom:230px
+    width:50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+
+ 
+    
+    
 }
 
 
