@@ -11,13 +11,12 @@ function App() {
       <Navigation/>
        
       </header>
-      <div className='what'>
+
       <Hero/>
-      </div>
+      
       
   
 
-      <Footer/>
     </div>
   );
 }

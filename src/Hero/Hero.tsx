@@ -7,8 +7,8 @@ export const Hero = () => {
     <div className='herocontainer'>
         <div className='heroitems'>
           <div className='over'>
-            <p>Andreas</p><br/>
-            <p>Webudvikler</p>
+            <p>Velkommen til min Portfolio</p><br/>
+            <p>Webudvikler med passion for Frontend</p>
           </div>
           
           <div className='under'>

@@ -1,9 +1,10 @@
 .footer{
     position: sticky;
-    top:90vh;
+    top:10%;
     background-color: transparent;
-    height: 10vh;
-    min-height: 10vh;
+    height: 10%;
+    min-height: 10%;
+    box-sizing: border-box;
 
     p{
         font-family: PPmori-bold;
