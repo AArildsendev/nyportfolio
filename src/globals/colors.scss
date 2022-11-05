@@ -32,6 +32,12 @@ button{
 a{
     color:$font-h1;
 }
+
+.section{
+    background-color: $background-color;
+   
+}
+
 }
 
 
@@ -74,6 +80,9 @@ a{
 
     a{
         color:$font-h1;
+    }
+    .main-cont{
+        background-color: $tertiary-accent;
     }
 }
    

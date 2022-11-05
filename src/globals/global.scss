@@ -1,18 +1,21 @@
 @use './breakpoints.scss';
-@use './colors.scss' as colors;
+@use './colors.scss';
 @use './fonts.scss';
 
+$fontbold : "Satoshi-bold";
+$fontlight: "Satoshi-light";
+$fontregular: "Satoshi-regular";
+$fontmedium: "Satoshi-medium";
 
 
 
 
-
-html{
+html {
     min-height: 99vh;
     position: fixed;
 }
- 
-  * {
+
+* {
     margin: 0;
     padding: 0;
     border: 0;
@@ -20,32 +23,43 @@ html{
     font-size: 100%;
     vertical-align: baseline;
     background: transparent;
-  }
-  
-  body {
+}
+
+body {
     margin: 0;
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif;
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
-  
-  code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace;
-  }
+}
 
-  .theme-dark,.theme-default{
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+.theme-dark,
+.theme-default {
     min-height: 100vh;
     text-align: center;
 
-   
-
-
-    
 }
 
 
-  
+h1 {
+    font-family: $fontbold;
+    white-space: nowrap;
+    font-size: 2rem;
+    font-weight: bolder;
+    overflow: visible;
+}
+
+
+
+
+/* main content */
+main-cont {
+    align-items: center;
+}

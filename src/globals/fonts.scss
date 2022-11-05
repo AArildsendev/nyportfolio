@@ -1,20 +1,22 @@
 @font-face {
-    font-family:'Raleway';
-    src: local('/src/assets/Raleway-Italic-VariableFont_wght.ttf');
+    font-family:'Satoshi-bold';
+    src: url('../assets/fonts/Satoshi-Bold.otf');
+    
   
   }
-  
   @font-face {
-    font-family:'Raleway';
-    src: local('/src/assets/Raleway-VariableFont_wght.ttf');
+    font-family:'Satoshi-regular';
+    src: url('../assets/fonts/Satoshi-Regular.otf');
+  
+  }
+  @font-face {
+    font-family:'Satoshi-medium';
+    src: url('../assets/fonts/Satoshi-Medium.otf');
+  
+  }
+  @font-face {
+    font-family:'Satoshi-light';
+    src: url('../assets/fonts/Satoshi-Light.otf');
   
   }
   
-  
-  @font-face{
-    font-family: 'PPMori-bold';
-    src:local('/src/assets/PPMori-SemiBold.otf');
-    
-    
-  
-  }
