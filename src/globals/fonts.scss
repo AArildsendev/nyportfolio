@@ -1,19 +1,19 @@
 @font-face {
     font-family:'Raleway';
-    src: url('./assets/Raleway-Italic-VariableFont_wght.ttf');
+    src: local('/src/assets/Raleway-Italic-VariableFont_wght.ttf');
   
   }
   
   @font-face {
     font-family:'Raleway';
-    src: url('./assets/Raleway-Italic-VariableFont_wght.ttf');
+    src: local('/src/assets/Raleway-VariableFont_wght.ttf');
   
   }
   
   
   @font-face{
     font-family: 'PPMori-bold';
-    src:url('./assets/PPMori-SemiBold.otf');
+    src:local('/src/assets/PPMori-SemiBold.otf');
     
     
   
