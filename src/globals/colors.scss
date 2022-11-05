@@ -28,6 +28,10 @@ button{
     background-color: $btn-color;
     color: $btn-text;
 }
+
+a{
+    color:$font-h1;
+}
 }
 
 
@@ -66,6 +70,10 @@ button{
     button{
         background-color: $btn-color;
         color: $btn-text;
+    }
+
+    a{
+        color:$font-h1;
     }
 }
    

@@ -1,6 +1,10 @@
 @use './breakpoints.scss';
-@use './colors.scss';
+@use './colors.scss' as colors;
 @use './fonts.scss';
+
+
+
+
 
 
 html{
@@ -35,6 +39,13 @@ html{
 
   .theme-dark,.theme-default{
     min-height: 100vh;
+    text-align: center;
+
+   
+
+
+    
 }
+
 
   
