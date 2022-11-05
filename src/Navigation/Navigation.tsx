@@ -1,6 +1,5 @@
 import React from 'react'
 import './style.scss'
-import '../App.css'
 import '../index.css'
 
 export const Navigation = () => {
