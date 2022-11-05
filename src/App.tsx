@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navigation } from './Navigation/Navigation';
-
+import {Footer} from './Footer/Footer'
+import {Hero} from './Hero/Hero'
 
 
 function App() {
@@ -10,7 +11,13 @@ function App() {
       <Navigation/>
        
       </header>
-     </div>
+
+      <Hero/>
+      
+      
+  
+
+    </div>
   );
 }
 
